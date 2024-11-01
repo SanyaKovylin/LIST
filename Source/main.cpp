@@ -12,9 +12,9 @@ int main(void){
     AddAfterIndex(&lst, &elem, 0);
     Dump(&lst);
     while (elem > 0){
-        elem--;
-        AddAfterIndex(&lst, &elem, 1);
-        Dump(&lst);
+    AddAfterIndex(&lst, &elem, 1);
+    elem--;
     }
+    Dump(&lst);
     return 0;
 }
